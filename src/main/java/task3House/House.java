@@ -15,7 +15,7 @@ public class House {
 
         List<String> oldTenantsOfHouse = new ArrayList<>();
         tenantsOfHouse.forEach((key, value) -> {
-            if (value > 18) {
+            if (value >= 18) {
                 oldTenantsOfHouse.add(key);
             }
         });
